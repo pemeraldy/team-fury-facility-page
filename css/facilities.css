@@ -203,12 +203,13 @@ nav{
     margin: auto 7px;
 }
 .nav-item :hover{
-    border-bottom: 5px solid  #DEBC64;;
+    border-bottom: 5px solid  #DEBC64;
 }
 .nav-link{
     color: #FFFFFF !important;
 }
 .active{
+  border-bottom: 5px solid  #DEBC64;
    color: #182B47;
 }
 .book_online_btn{

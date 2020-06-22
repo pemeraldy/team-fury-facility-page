@@ -28,40 +28,34 @@
   <header>
     <!-- <div class="nav-wrap"> -->
     <!-- <div class="container"> -->
-    <nav class="navbar navbar-expand-lg navbar-light nav-wrap">
-      <div class="container">
-        <a class="navbar-brand" href="#">HZ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div>
+        <a class="navbar-brand logo_text" href="#">HZ</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="active"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-              <span class="active"></span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Rooms</a>
-              <span class="active"></span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Facilities</a>
-              <span class="active"></span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-              <span class="active"></span>
-            </li>
-            <li class="nav-item book-now">
-              <a class="nav-link btn" href="#">Book Now</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Facilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="book_online_btn"> Book online</button>
       </div>
     </nav>
     <!-- </div> -->
@@ -249,66 +243,59 @@
     </div>
   </section>
 
-  <!-- footer - abdul format -->
-  <!--Company Section Formatting Starts-->
-  <section class="company">
-    <div class="container">
+  <!-- This is the footer -->
+  <footer>
+    <div class="container-fluid footer_1">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h1>HZ</h1>
-          <div class="row center-xs center-sm center-md center-lg" id="company-elements">
-            <div id="stay-in" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <h5>STAY IN TOUCH &nbsp;</h5>
-              <p>Sign up here to receive interesting updates</p>
-              <form class="inline-form">
-                <input type="text">
-                <button class="btn-company">Send</button>
-              </form>
+        <p class="logo_text">HZ</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p>STAY IN TOUCH</p>
+          <p>Sign up here to receive interesting updates</p>
+          <form class="news_letter">
+            <div class="">
+              <input type="email" class="form-control" id="inputPassword2" placeholder="Email Address">
             </div>
-            <div id="services" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <h3>COMPANY</h3>
-              <p><a href="#">Home</a></p>
-              <p><a href="#">About Us</a></p>
-              <p><a href="#">Facilities</a></p>
-              <p><a href="#">Contact</a></p>
-            </div>
-            <div id="reach-us" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <h3>COMPANY</h3>
-              <div>
-                <p>
-                  <ion-icon name="call"></ion-icon></i>+234 803 221 7768
-                </p>
-                <p>
-                  <ion-icon name="mail"></ion-icon></i>contact@dumont.com
-                </p>
-                <p>
-                  <ion-icon name="location"></ion-icon></i>Plot 441, Zone 3 Wuse, Abuja
-                </p>
-              </div>
-              <div class="social-media">
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-              </div>
-            </div>
-          </div>
+            <button type="submit" class="new_letter_btn btn">Send</button>
+          </form>
+        </div>
+        <div class="col-md offset-md-1">
+          <p class="footer_company">COMPANY</p>
+          <p class="footer_link"><a href="">Home</a> </p>
+          <p class="footer_link"><a href="">About Us</a> </p>
+          <p class="footer_link"><a href="">Facilities</a> </p>
+          <p class="footer_link"><a href="">Contact</a> </p>
+        </div>
+        <div class="col-md footer_contact_spot">
+          <p class="footer_company">COMPANY</p>
+          <p>
+            <ion-icon name="call"></ion-icon>+234 803 221 7768
+          </p>
+          <p>
+            <ion-icon name="mail"></ion-icon>contact@hotelzuri.com
+          </p>
+          <p>
+            <ion-icon name="location"></ion-icon>Plot 411, Zone 3 Wuse,
+            Abuja
+          </p>
+          <p>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+          </p>
         </div>
       </div>
     </div>
-  </section>
-  <!--Round Section Formatting Ends-->
-
-  <!-- Footer Section Formatting Starts-->
-  <footer class="main-footer">
-    <div class="container">
-      <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p>&copy;2020 Hotel Zuri. Designed by Team Fury</p>
-        </div>
-      </div>
+    <div class="footer_2">
+      <p>2020 Hotel Zuri. Designed by Team Fury</p>
     </div>
   </footer>
+  <!-- End of footer -->
 
+
+
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 
 </html>
